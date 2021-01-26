@@ -15,7 +15,7 @@ WEBHOOK_URL=https://webhook.site/xxx
 Please input the exact information.
 
 3. Build Docker image
-> docker image build -t <name of container> .
+> docker image build -t NAMEOFCONTAINER .
 
 4. Run Docker image
->docker run -it --env-file=env <name of container>
+>docker run -it --env-file=env NAMEOFCONTAINER
